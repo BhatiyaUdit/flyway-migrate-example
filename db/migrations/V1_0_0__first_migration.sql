@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS udit(
+    id INT,
+    name VARCHAR(250)
+);
