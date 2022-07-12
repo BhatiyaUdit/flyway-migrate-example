@@ -12,4 +12,6 @@ public class Main {
     //                      -Dflyway.schemas=$(flyway.schema)
     //
     // mvn flyway:migrate -Dflyway.configFiles=flywayConfig.conf
+
+    // mvn flyway:migrate -Dflyway.user=udit -Dflyway.password=udit1234 -Dflyway.url=jdbc:postgresql://localhost:5433/udit-flyway -Dflyway.schemas=testFlyWay
 }
